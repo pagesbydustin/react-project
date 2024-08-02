@@ -21,47 +21,5 @@
                 "uri": "/public/images/imagename.jpg"
             }
         ]
-    },
-    {
-        "id": 3,
-        "title": "How to use HTML",
-        "content": {
-            "text": "HTML is the standard markup language for creating web pages.",
-            "html": "<p>HTML is the standard markup language for creating web pages. It is used to define the structure of a web page by giving meaning and context to the content.</p>"
-        },
-        "media": [
-            {
-                "name": "HTML Example",
-                "uri": "/public/images/html-example.png"
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "title": "How to use CSS",
-        "content": {
-            "text": "CSS is used to style the HTML elements on a web page.",
-            "html": "<p>CSS is used to style the HTML elements on a web page. It is used to control the layout, colors, fonts, and other visual aspects of a web page.</p>"
-        },
-        "media": [
-            {
-                "name": "CSS Example",
-                "uri": "/public/images/css-example.png"
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "title": "How to use JavaScript",
-        "content": {
-            "text": "JavaScript is used to add interactivity to a web page.",
-            "html": "<p>JavaScript is used to add interactivity to a web page. It is used to make web pages dynamic and responsive to user interactions.</p>"
-        },
-        "media": [
-            {
-                "name": "JavaScript Example",
-                "uri": "/public/images/javascript-example.png"
-            }
-        ]
     }
 ]
