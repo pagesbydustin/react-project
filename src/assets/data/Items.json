@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "title": "Title 1",
+        "content": {
+            "text": "Some Text",
+            "html": "<p>Some Text</p>"
+        },
+        "media": {}
+    }
+]
