@@ -7,5 +7,19 @@
             "html": "<p>Some Text</p>"
         },
         "media": {}
+    },
+    {
+        "id": 2,
+        "title": "Title 2",
+        "content": {
+            "text": "Some Text",
+            "html": "<p>Some Text</p>"
+        },
+        "media": [
+            {
+                "name": "First Image",
+                "uri": "/public/images/imagename.jpg"
+            }
+        ]
     }
 ]
