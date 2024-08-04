@@ -11,7 +11,6 @@ import { RiQuestionFill } from "react-icons/ri";
 
 export default function NavMain() {
   const location = useLocation();
-
   return (
     <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
       <NavbarBrand href="/">React-Bootstrap</NavbarBrand>

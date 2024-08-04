@@ -1,12 +1,5 @@
-
-
 function FooterMain() {
-    return (
-        <footer>
-            Created by: Dustin Parker @ By Dustin LLC
-        </footer>
-
-    );
+  return <footer>Created by: Dustin Parker @ By Dustin LLC</footer>;
 }
 
 export default FooterMain;

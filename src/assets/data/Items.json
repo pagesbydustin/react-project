@@ -1,24 +1,74 @@
 [
     {
         "id": 1,
-        "title": "Title 1",
+        "title": "Navigation",
         "content": {
-            "text": "Some Text",
-            "html": "<p>Some Text</p>"
+            "text": "The navigation at the top is where you want to find your location.",
+            "html": "<p>The navigation at the top is where you want to find your location.</p>"
         },
         "media": {}
     },
     {
         "id": 2,
-        "title": "Title 2",
+        "title": "Home",
         "content": {
-            "text": "Some Text",
-            "html": "<p>Some Text</p>"
+            "text": "This is the home page",
+            "html": "<p>This is the home page</p>"
         },
         "media": [
             {
-                "name": "First Image",
-                "uri": "/public/images/imagename.jpg"
+                "name": "Home",
+                "uri": "/public/images/home.jpg"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "About Us",
+        "content": {
+            "text": "Learn more about our company and mission.",
+            "html": "<p>Learn more about our company and mission.</p>"
+        },
+        "media": [
+            {
+                "name": "Company Logo",
+                "uri": "/public/images/logo.png"
+            },
+            {
+                "name": "Team Photo",
+                "uri": "/public/images/team.jpg"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Products",
+        "content": {
+            "text": "Discover our amazing products and services.",
+            "html": "<p>Discover our amazing products and services.</p>"
+        },
+        "media": [
+            {
+                "name": "Product Image 1",
+                "uri": "/public/images/product1.jpg"
+            },
+            {
+                "name": "Product Image 2",
+                "uri": "/public/images/product2.jpg"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Contact Us",
+        "content": {
+            "text": "Get in touch with us for any inquiries.",
+            "html": "<p>Get in touch with us for any inquiries.</p>"
+        },
+        "media": [
+            {
+                "name": "Contact Form",
+                "uri": "/contact-form"
             }
         ]
     }

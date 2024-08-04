@@ -7,7 +7,7 @@ import axios from "axios";
 function Help() {
   const [data, setData] = useState([]);
   const [allData, setAllData] = useState([]); // Store all fetched data
-  const [showMore, setShowMore] = useState(false);
+  const [showMore, setShowMore] = useState(true);
   const [isLoading, setIsLoading] = useState(true); // Loading indicator
 
   useEffect(() => {
