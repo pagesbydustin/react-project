@@ -14,6 +14,7 @@ function App() {
   return (
     <>
       <NavMain />
+
       <Container id="bodyContent">
         <Routes>
           <Route path="/" element={<Main />} />
