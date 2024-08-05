@@ -1,75 +1,105 @@
 [
     {
         "id": 1,
-        "title": "Navigation",
-        "content": {
-            "text": "The navigation at the top is where you want to find your location.",
-            "html": "<p>The navigation at the top is where you want to find your location.</p>"
-        },
-        "media": {}
+        "title": "Navigation Help",
+        "content": [
+            {
+                "contentId": 1,
+                "text": "The navigation at the top is where you want to find your location."
+            },
+            {
+                "contentId": 2,
+                "text": "Once clicked you should be sent to a new page based on your selection."
+            }
+        ],
+        "media": [
+            {
+                "imageTitle": "Navigation Image 1",
+                "uri": "https://placehold.it/350x250"
+            },
+            {
+                "imageTitle": "Navigation Image 2",
+                "uri": "https://placehold.it/350x250"
+            }
+        ]
     },
     {
         "id": 2,
-        "title": "Home",
-        "content": {
-            "text": "This is the home page",
-            "html": "<p>This is the home page</p>"
-        },
+        "title": "Search Functionality",
+        "content": [
+            {
+                "contentId": 3,
+                "text": "Use the search bar at the top to find specific content."
+            },
+            {
+                "contentId": 4,
+                "text": "Enter keywords related to what you're looking for."
+            }
+        ],
         "media": [
             {
-                "name": "Home",
-                "uri": "/public/images/home.jpg"
+                "imageTitle": "Search Image 1",
+                "uri": "https://placehold.it/350x250"
             }
         ]
     },
     {
         "id": 3,
-        "title": "About Us",
-        "content": {
-            "text": "Learn more about our company and mission.",
-            "html": "<p>Learn more about our company and mission.</p>"
-        },
-        "media": [
+        "title": "User Profile",
+        "content": [
             {
-                "name": "Company Logo",
-                "uri": "/public/images/logo.png"
+                "contentId": 5,
+                "text": "Access your profile settings by clicking your username."
             },
             {
-                "name": "Team Photo",
-                "uri": "/public/images/team.jpg"
+                "contentId": 6,
+                "text": "Update your personal information and preferences."
+            }
+        ],
+        "media": [
+            {
+                "imageTitle": "Profile Image 1",
+                "uri": "https://placehold.it/350x250"
             }
         ]
     },
     {
         "id": 4,
-        "title": "Products",
-        "content": {
-            "text": "Discover our amazing products and services.",
-            "html": "<p>Discover our amazing products and services.</p>"
-        },
-        "media": [
+        "title": "Content Sharing",
+        "content": [
             {
-                "name": "Product Image 1",
-                "uri": "/public/images/product1.jpg"
+                "contentId": 7,
+                "text": "Share interesting content with your friends."
             },
             {
-                "name": "Product Image 2",
-                "uri": "/public/images/product2.jpg"
+                "contentId": 8,
+                "text": "Use the share buttons located below each item."
+            }
+        ],
+        "media": [
+            {
+                "imageTitle": "Share Image 1",
+                "uri": "https://placehold.it/350x250"
+            },
+            {
+                "contentId": 8,
+                "text": "Use the share buttons located below each item."
             }
         ]
     },
     {
         "id": 5,
-        "title": "Contact Us",
-        "content": {
-            "text": "Get in touch with us for any inquiries.",
-            "html": "<p>Get in touch with us for any inquiries.</p>"
-        },
-        "media": [
+        "title": "Troubleshooting",
+        "content": [
             {
-                "name": "Contact Form",
-                "uri": "/contact-form"
+                "contentId": 9,
+                "text": "Encountering issues? Check our FAQ page."
+            },
+            {
+                "contentId": 10,
+                "text": "If you can't find a solution, contact our support team."
             }
-        ]
+        ],
+        "media": []
     }
 ]

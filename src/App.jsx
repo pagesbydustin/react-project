@@ -7,7 +7,7 @@ import Items from "./assets/components/Items";
 import HelpPage from "./assets/components/HelpPage";
 import FooterMain from "./assets/components/layout/FooterMain";
 
-import "./App.css";
+import "./assets/css/App.css";
 import "./assets/css/bootstrap_custom.css";
 
 function App() {
