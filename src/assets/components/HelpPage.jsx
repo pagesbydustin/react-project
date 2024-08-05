@@ -46,7 +46,7 @@ function HelpPage() {
           )}
           <Modal show={showImageModal} onHide={handleCloseModal}>
             <Modal.Header closeButton>
-              <Modal.Title>Selected Image</Modal.Title>
+              <Modal.Title>{selectedImage?.imageTitle}</Modal.Title>
             </Modal.Header>
             <Modal.Body
               style={{
