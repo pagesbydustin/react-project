@@ -1,7 +1,7 @@
 import { Container } from "react-bootstrap";
 import { Routes, Route } from "react-router";
 import Main from "./assets/components/Main";
-import Help from "./assets/components/Help";
+import Help from "./assets/components/Help.jsx";
 import NavMain from "./assets/components/layout/NavMain";
 import Items from "./assets/components/Items";
 import HelpPage from "./assets/components/HelpPage";
@@ -18,9 +18,9 @@ function App() {
       <Container id="bodyContent">
         <Routes>
           <Route path="/" element={<Main />} />
-          <Route path="/items" element={<Items />} />
-          <Route path="/help" element={<Help />} />
-          <Route path="/help/:id" element={<HelpPage />} />{" "}
+          <Route path="items" element={<Items />} />
+          <Route path="help" element={<Help />} />
+          <Route path="help/:id" element={<HelpPage />} />{" "}
           {/** this line should rerender the help compnent and append the result */}
           <Route path="*" element={<NotFound />} />
         </Routes>

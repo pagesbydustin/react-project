@@ -6,8 +6,8 @@ const NoteCard = ({ note }) => {
   return (
     <Card>
       <Card.Body className="text-left">
-        <Card.Title>User:</Card.Title>
-        <Card.Text>{note.user}</Card.Text>
+        <Card.Title>{note.user !== "" ? "User:" : "Title:"}</Card.Title>
+        <Card.Text>{note.user || note.title}</Card.Text>
         <Card.Title>Response:</Card.Title>
         <Card.Text>
           <ReactMarkdown>{note.response}</ReactMarkdown>
@@ -19,7 +19,8 @@ const NoteCard = ({ note }) => {
 
 NoteCard.propTypes = {
   note: PropTypes.shape({
-    user: PropTypes.string.isRequired,
+    user: PropTypes.string,
+    title: PropTypes.string,
     response: PropTypes.string.isRequired,
   }).isRequired,
 };
