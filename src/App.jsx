@@ -18,10 +18,9 @@ function App() {
       <Container id="bodyContent">
         <Routes>
           <Route path="/" element={<Main />} />
-          <Route path="items" element={<Items />} />
-          <Route path="help" element={<Help />} />
-          <Route path="help/:id" element={<HelpPage />} />{" "}
-          {/** this line should rerender the help compnent and append the result */}
+          <Route path="/items" element={<Items />} />
+          <Route path="/help" element={<Help />} />
+          <Route path="/help/:id" element={<HelpPage />} />{" "}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Container>
